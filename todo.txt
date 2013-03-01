@@ -1,0 +1,4 @@
+* consider storing user counters in a hash
+
+http://wiki.teamfortress.com/wiki/Scoreboard
+http://tf2wiki.net/wiki/Points

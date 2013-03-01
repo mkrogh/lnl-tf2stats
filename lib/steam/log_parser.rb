@@ -12,7 +12,6 @@ module Steam
     def handle_line(line)
       user = user(line)
       @actions.keys.each do |pattern|
-        puts pattern
         if match = pattern.match(line)
           @actions[pattern].call(match,user)
         end
