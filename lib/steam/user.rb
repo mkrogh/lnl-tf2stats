@@ -1,7 +1,7 @@
 module Steam
   class User
     attr_reader :name, :steam_id, :total_damage
-    attr_accessor :assists, :captures, :defends, :revenges
+    attr_accessor :assists, :captures, :defends, :revenges, :destructions
     def initialize(name, steam_id=nil)
       @name = name
       @steam_id = steam_id 
@@ -11,6 +11,7 @@ module Steam
       @captures = 0
       @defends = 0
       @revenges = 0
+      @destructions = 0
     end
 
     def self.from_steam(steam)
@@ -42,7 +43,7 @@ module Steam
     end
 
     def points
-      total_kills + (@assists/2) + (captures*2) + defends + revenges
+      total_kills + (@assists/2) + (captures*2) + defends + revenges + destructions
     end
   end
 end

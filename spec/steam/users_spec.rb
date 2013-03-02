@@ -17,6 +17,7 @@ describe Steam::User do
     its(:captures){should == 0}
     its(:defends){should == 0}
     its(:revenges){should == 0}
+    its(:destructions){should == 0}
 
   end
 

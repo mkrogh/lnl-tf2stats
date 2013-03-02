@@ -33,6 +33,11 @@ describe Steam::User do
       user.points.should == 3
     end
 
+    it "should count destructions" do
+      user.destructions = 4
+      user.points.should == 4
+    end
+
     it "points should be a total" do
       user.kills(player2)
       user.kills(player2)
@@ -41,8 +46,9 @@ describe Steam::User do
       user.captures= 1
       user.defends = 1
       user.revenges = 1
+      user.destructions = 1
 
-      user.points.should == 9
+      user.points.should == 10
     end
   end
 end
