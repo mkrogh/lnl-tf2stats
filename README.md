@@ -16,6 +16,8 @@ CLI usage
     Usage:
       ruby tf2_stats.rb parse <log_files> # will print the leaderboard
       ruby tf2_stats.rb leaderboard -o leaderboard.html <log_files> # generate html leaderboard
+    Example:
+      ruby tf2_stats.rb parse "*.log"
 
 History
 -------
