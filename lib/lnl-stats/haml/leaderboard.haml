@@ -1,0 +1,10 @@
+!!!5
+%html
+  %head
+    %title LNL leaderboard
+  %body
+    %h1 LNL Team fortress 2 leaderboard
+    %section
+      %ol
+        -@leaderboard.each do |user|
+          %li #{user.name} - points: #{user.points}
