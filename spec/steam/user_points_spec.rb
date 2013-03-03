@@ -51,7 +51,7 @@ describe Steam::User do
 
     it "should award headshots" do
       user.headshots = 5
-      user.points.should == 5
+      user.points.should == 2
     end
 
     its "should award backstabs" do

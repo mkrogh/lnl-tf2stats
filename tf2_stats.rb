@@ -1,3 +1,4 @@
+# encoding: UTF-8
 require "rubygems"
 require 'bundler/setup'
 
@@ -31,16 +32,26 @@ class Tf2Stats < Thor
 
   desc "leaderboard <tf2_logfiles>", "generates a leaderboard form logfile"
   method_option :output, :aliases => "-o", :type => :string
+  method_option :force, :aliases => "-f", :type => :boolean, :default => false
   def leaderboard(log_files)
-    @parser.parse(log_files)
+    Dir.glob(log_files).sort.each do |file|
+      @parser.parse(file) if File.file?(file)
+    end
     
     html = LNL::HtmlGenerator.create_leaderboard(@parser.users.values)
 
     if options[:output]
-      open(options[:output], "w") {|f| f.write(html)}
+      copy_resources(options[:output])
+      open(options[:output]+"/index.html", "w:UTF-8") {|f| f.write(html)}
     else
       puts html
     end
+  end
+
+  private
+  def copy_resources(destination)
+    puts "Generating resources"
+    FileUtils.cp_r  "resources/.", destination
   end
 end
 

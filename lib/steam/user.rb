@@ -59,7 +59,7 @@ module Steam
       + destructions \
       + ubercharges \
       + (total_healed/600) \
-      + headshots \
+      + (headshots/2) \
       + backstabs
     end
 

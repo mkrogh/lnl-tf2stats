@@ -2,9 +2,33 @@
 %html
   %head
     %title LNL leaderboard
+    %meta{charset: "UTF-8"}
+    %link{rel: "stylesheet", href: "bootstrap/css/bootstrap.min.css", type: "text/css"}
+    %link{rel: "stylesheet", href: "bootstrap/css/bootstrap-responsive.min.css", type: "text/css"}
+    %link{rel: "stylesheet", href: "css/main.css", type: "text/css"}
+
   %body
-    %h1 LNL Team fortress 2 leaderboard
-    %section
-      %ol
-        -@leaderboard.each do |user|
-          %li #{user.name} - points: #{user.points}
+    .container
+      .well
+        %h1 LNL Team fortress 2 leaderboard
+      %section
+        %table.table.table-striped
+          %thead
+            %tr
+              %th #
+              %th Nick
+              %th Captures
+              %th Übercharge
+              %th Assists
+              %th Kills
+              %th Score
+          %tbody
+            -@leaderboard.each_with_index do |user,i|
+              %tr
+                %td #{1+i}
+                %td #{user.name}
+                %td #{user.captures}
+                %td #{user.ubercharges}
+                %td #{user.assists}
+                %td #{user.total_kills}
+                %td #{user.points}
