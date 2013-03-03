@@ -6,7 +6,7 @@ A little library capable of tracking player stats by scanning Team fortress 2 lo
 Features
 --------
 
-* Calculates player points
+* Calculates player points according to [TF2 wiki](http://wiki.teamfortress.com/wiki/Scoreboard#Points)
 ** no bonus points atm.
 * Tracks custom events such as, damage dealt, healing etc.
 
