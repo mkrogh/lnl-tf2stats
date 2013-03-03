@@ -11,7 +11,7 @@ describe Steam::LogParser do
   let(:parser) do
       Steam::LogParser.prepare do 
         entry /.* triggered "damage" \(damage "(\d+)"\)/ do |msg, user|
-          user.take_damage Integer(msg[1])
+          user.deal_damage Integer(msg[1])
         end
       end
   end

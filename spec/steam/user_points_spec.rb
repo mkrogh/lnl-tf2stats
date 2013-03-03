@@ -1,3 +1,4 @@
+# encoding: UTF-8
 require "spec_helper"
 require "steam/user"
 
@@ -38,15 +39,36 @@ describe Steam::User do
       user.points.should == 4
     end
 
+    it "should count übercharges" do
+      user.ubercharges = 6
+      user.points.should == 6
+    end
+
+    it "should award healing" do
+      user.heal(1199)
+      user.points.should == 1
+    end
+
+    it "should award headshots" do
+      user.headshots = 5
+      user.points.should == 5
+    end
+
+    its "should award backstabs" do
+      user.backstabs = 6
+      user.points.should == 6
+    end
+
     it "points should be a total" do
       user.kills(player2)
       user.kills(player2)
       user.kills(user)
-      user.assists = 7
+      user.assists = 5
       user.captures= 1
       user.defends = 1
       user.revenges = 1
       user.destructions = 1
+      user.ubercharges = 1
 
       user.points.should == 10
     end

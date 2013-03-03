@@ -5,6 +5,7 @@ shared_examples "a new user" do
     its(:name) { should == "NevaKee"}
     its(:steam_id) { should == "STEAM_0:0:20205444"}
     its(:total_damage) { should == 0}
+    its(:total_healed){ should == 0}
     its(:kills){ should == {}}
     its(:suicides){should == 0}
     its(:assists){should == 0}
@@ -12,6 +13,9 @@ shared_examples "a new user" do
     its(:defends){should == 0}
     its(:revenges){should == 0}
     its(:destructions){should == 0}
+    its(:ubercharges){should == 0}
+    its(:headshots){should == 0}
+    its(:backstabs){should == 0}
 end
 
 describe Steam::User do
@@ -36,16 +40,35 @@ describe Steam::User do
 
   context "when handling damange" do
     it "should take damage" do 
-      user.take_damage 50
+      user.deal_damage 50
       user.total_damage.should == 50
     end
 
     it "should keep track of damage" do 
-      user.take_damage 104
-      user.take_damage 66
-      user.take_damage 30
+      user.deal_damage 104
+      user.deal_damage 66
+      user.deal_damage 30
       user.total_damage.should == 200
     end
+  end
+
+  context "when tracking heals" do
+    it "should heal" do 
+      user.heal 50
+      user.total_healed.should == 50
+    end
+
+    it "should keep track of healing" do 
+      user.heal 104
+      user.heal 66
+      user.heal 30
+      user.total_healed.should == 200
+    end
+  end
+
+  it "should tracs headshots" do
+    user.headshots += 1
+    user.headshots.should == 1
   end
 
   context "when tracking kills" do

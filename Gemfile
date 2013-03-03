@@ -5,3 +5,4 @@ source "https://rubygems.org"
 
 #gem "steam-condenser"
 gem "rspec"
+gem "thor"
