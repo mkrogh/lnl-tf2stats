@@ -1,3 +1,5 @@
+require "steam/log_parser"
+
 module Steam
   class Tf2Parser < LogParser
     def initialize()

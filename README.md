@@ -10,6 +10,12 @@ Features
 ** no bonus points atm.
 * Tracks custom events such as, damage dealt, healing etc.
 
+
+CLI usage
+---------
+    Usage:
+      ruby tf2_stats.rb parse <log_file> # will print the leaderboard
+
 History
 -------
 

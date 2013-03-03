@@ -1,3 +1,4 @@
+require "steam/user"
 module Steam
   class LogParser
     attr_reader :actions, :users
