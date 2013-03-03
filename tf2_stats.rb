@@ -12,21 +12,27 @@ class Tf2Stats < Thor
     @parser = Steam::Tf2Parser.new
   end
 
-  desc "parse <tf2_logfile>", "parses the specified logfile"
-  def parse(log_file)
-    @parser.parse(log_file)
+  desc "parse <tf2_logfiles>", "parses the specified logfile"
+  def parse(log_files)
+    Dir.glob(log_files).sort.each do |file|
+      @parser.parse(file) if File.file?(file)
+    end
 
     leaderboard = @parser.users.values.sort { |usr1, usr2| usr2.points <=> usr1.points}
 
-    leaderboard.each do |user| 
-      puts "#{user.name}<#{user.steam_id}> - total points: #{user.points}"
+    unless leaderboard.empty?
+      leaderboard.each do |user| 
+        puts "#{user.name}<#{user.steam_id}> - total points: #{user.points}"
+      end
+    else
+      puts "No users parsed"
     end
   end
 
-  desc "leaderboard <tf2_logfile>", "generates a leaderboard form logfile"
+  desc "leaderboard <tf2_logfiles>", "generates a leaderboard form logfile"
   method_option :output, :aliases => "-o", :type => :string
-  def leaderboard(log_file)
-    @parser.parse(log_file)
+  def leaderboard(log_files)
+    @parser.parse(log_files)
     
     html = LNL::HtmlGenerator.create_leaderboard(@parser.users.values)
 
