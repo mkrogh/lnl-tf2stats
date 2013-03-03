@@ -7,7 +7,7 @@ Features
 --------
 
 * Calculates player points according to [TF2 wiki](http://wiki.teamfortress.com/wiki/Scoreboard#Points)
-** no bonus points atm.
+    * no bonus points atm.
 * Tracks custom events such as, damage dealt, healing etc.
 
 
