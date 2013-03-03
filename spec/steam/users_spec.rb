@@ -20,7 +20,7 @@ describe Steam::User do
 
   describe "#from_steam" do 
     context "when creating from full log line" do
-      subject { Steam::User.from_steam('L 02/21/2013 - 21:13:54: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "76")')}
+      subject { Steam::User.from_steam('L 02/28/2013 - 20:44:54: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "kill assist" against "Handberg<4><STEAM_0:0:17702671><Red>" (assister_position "-2228 3191 -343") (attacker_position "-2346 3187 -287") (victim_position "-2407 3008 -287")')}
       it_behaves_like "a new user"
     end
 

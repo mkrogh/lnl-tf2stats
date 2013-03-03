@@ -15,7 +15,7 @@ module Steam
     end
 
     def self.from_steam(steam)
-      match = /.*"(?<name>.*?)<\d+><(?<id>STEAM_.*?)>.*"/.match(steam)
+      match = /.*?"(?<name>.*?)<\d+><(?<id>STEAM_.*?)>.*"/.match(steam)
       User.new(match[:name], match[:id])
     end
 
@@ -45,5 +45,6 @@ module Steam
     def points
       total_kills + (@assists/2) + (captures*2) + defends + revenges + destructions
     end
+
   end
 end

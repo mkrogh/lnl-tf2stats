@@ -6,6 +6,10 @@ module Steam
         victim = User.from_steam(msg["victim"])
         user.kills(victim)
       end
+
+      entry /.* triggered "kill assist".*/ do |msg, user|
+        user.assists += 1
+      end
     end
   end
 end
