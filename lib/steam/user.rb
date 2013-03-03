@@ -16,7 +16,7 @@ module Steam
 
     def self.from_steam(steam)
       match = /.*?"(?<name>.*?)<\d+><(?<id>STEAM_.*?)>.*"/.match(steam)
-      User.new(match[:name], match[:id])
+      User.new(match[:name], match[:id]) if match
     end
 
     def take_damage(amount)
@@ -46,5 +46,8 @@ module Steam
       total_kills + (@assists/2) + (captures*2) + defends + revenges + destructions
     end
 
+    def to_s
+      "#<Steam::User @name=#{name} @steam_id=#{steam_id}>"
+    end
   end
 end

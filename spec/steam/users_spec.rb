@@ -28,6 +28,10 @@ describe Steam::User do
       subject{Steam::User.from_steam('"NevaKee<2><STEAM_0:0:20205444><Blue>"')}
       it_behaves_like "a new user"
     end
+
+    it "handles garbage data" do
+      user = Steam::User.from_steam("garbageGarbage")
+    end
   end
 
   context "when handling damange" do

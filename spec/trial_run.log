@@ -1,0 +1,253 @@
+L 02/21/2013 - 20:38:18: Log file started (file "logs\L0221003.log") (game "d:\valve\hlserver\orangebox\tf") (version "5212")
+L 02/21/2013 - 20:38:19: Connection to Steam servers successful.
+L 02/21/2013 - 20:38:19:    Public IP is 90.185.49.206.
+L 02/21/2013 - 20:38:19: Assigned anonymous gameserver Steam ID [A-1:269006848(3285)].
+L 02/21/2013 - 20:38:19: server_cvar: "sm_nextmap" "tc_hydro"
+L 02/21/2013 - 20:38:19: VAC secure mode is activated.
+L 02/21/2013 - 20:38:19: tf_server_identity_account_id not set; not logging into registered account
+L 02/21/2013 - 20:38:19: Sending CMsgGameServerMatchmakingStatus (state=ServerMatchmakingState_NOT_PARTICIPATING)
+L 02/21/2013 - 20:48:03: "NevaKee<2><STEAM_0:0:20205444><>" connected, address "90.185.49.206:27006"
+L 02/21/2013 - 20:48:04: "NevaKee<2><STEAM_0:0:20205444><>" STEAM USERID validated
+L 02/21/2013 - 20:49:02: "NevaKee<2><STEAM_0:0:20205444><>" entered the game
+L 02/21/2013 - 20:49:18: "NevaKee<2><STEAM_0:0:20205444><Unassigned>" joined team "Blue"
+L 02/21/2013 - 20:49:40: "NevaKee<2><STEAM_0:0:20205444><Blue>" changed role to "engineer"
+L 02/21/2013 - 20:50:10: World triggered "Round_Start"
+L 02/21/2013 - 20:51:09: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "builtobject" (object "OBJ_SENTRYGUN") (position "531 -3298 -175")
+L 02/21/2013 - 20:52:14: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "builtobject" (object "OBJ_SENTRYGUN") (position "530 -3240 -175")
+L 02/21/2013 - 20:53:03: "Handberg<3><STEAM_0:0:17702671><>" connected, address "79.138.250.63:27005"
+L 02/21/2013 - 20:53:04: "Handberg<3><STEAM_0:0:17702671><>" STEAM USERID validated
+L 02/21/2013 - 20:53:45: "NevaKee<2><STEAM_0:0:20205444><Blue>" picked up item "ammopack_medium"
+L 02/21/2013 - 20:54:00: "NevaKee<2><STEAM_0:0:20205444><Blue>" picked up item "ammopack_medium"
+L 02/21/2013 - 20:54:10: "Handberg<3><STEAM_0:0:17702671><>" entered the game
+L 02/21/2013 - 20:54:18: "NevaKee<2><STEAM_0:0:20205444><Blue>" picked up item "ammopack_medium"
+L 02/21/2013 - 20:54:19: "Handberg<3><STEAM_0:0:17702671><Unassigned>" joined team "Red"
+L 02/21/2013 - 20:54:24: "Handberg<3><STEAM_0:0:17702671><Red>" changed role to "heavyweapons"
+L 02/21/2013 - 20:54:42: "NevaKee<2><STEAM_0:0:20205444><Blue>" picked up item "ammopack_small"
+L 02/21/2013 - 20:54:56: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "6")
+L 02/21/2013 - 20:54:57: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "6")
+L 02/21/2013 - 20:55:01: "NevaKee<2><STEAM_0:0:20205444><Blue>" picked up item "ammopack_small"
+L 02/21/2013 - 20:55:11: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "162")
+L 02/21/2013 - 20:55:11: "Handberg<3><STEAM_0:0:17702671><Red>" triggered "damage" (damage "9")
+L 02/21/2013 - 20:55:11: "Handberg<3><STEAM_0:0:17702671><Red>" triggered "damage" (damage "19")
+L 02/21/2013 - 20:55:11: "Handberg<3><STEAM_0:0:17702671><Red>" triggered "damage" (damage "20")
+L 02/21/2013 - 20:55:33: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "26")
+L 02/21/2013 - 20:55:37: "Handberg<3><STEAM_0:0:17702671><Red>" picked up item "medkit_small"
+L 02/21/2013 - 20:55:37: "Handberg<3><STEAM_0:0:17702671><Red>" picked up item "ammopack_small"
+L 02/21/2013 - 20:55:57: "Handberg<3><STEAM_0:0:17702671><Red>" picked up item "medkit_medium"
+L 02/21/2013 - 20:56:13: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "68")
+L 02/21/2013 - 20:56:14: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "76")
+L 02/21/2013 - 20:56:14: "Handberg<3><STEAM_0:0:17702671><Red>" triggered "damage" (damage "39")
+L 02/21/2013 - 20:56:14: "Handberg<3><STEAM_0:0:17702671><Red>" triggered "damage" (damage "25")
+L 02/21/2013 - 20:56:14: "Handberg<3><STEAM_0:0:17702671><Red>" triggered "damage" (damage "53")
+L 02/21/2013 - 20:56:14: "Handberg<3><STEAM_0:0:17702671><Red>" triggered "damage" (damage "24")
+L 02/21/2013 - 20:56:14: "Handberg<3><STEAM_0:0:17702671><Red>" killed "NevaKee<2><STEAM_0:0:20205444><Blue>" with "minigun" (attacker_position "201 -2394 5") (victim_position "120 -2544 38")
+L 02/21/2013 - 20:56:16: "Handberg<3><STEAM_0:0:17702671><Red>" picked up item "tf_ammo_pack"
+L 02/21/2013 - 20:56:22: "Handberg<3><STEAM_0:0:17702671><Red>" picked up item "medkit_small"
+L 02/21/2013 - 20:57:13: "Handberg<3><STEAM_0:0:17702671><Red>" picked up item "medkit_small"
+L 02/21/2013 - 20:57:29: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "16")
+L 02/21/2013 - 20:57:30: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "15")
+L 02/21/2013 - 20:57:30: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "18")
+L 02/21/2013 - 20:57:30: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "17")
+L 02/21/2013 - 20:57:30: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "16")
+L 02/21/2013 - 20:57:30: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "14")
+L 02/21/2013 - 20:57:30: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "18")
+L 02/21/2013 - 20:57:30: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "51")
+L 02/21/2013 - 20:57:33: "Handberg<3><STEAM_0:0:17702671><Red>" picked up item "medkit_medium"
+L 02/21/2013 - 20:57:34: "Handberg<3><STEAM_0:0:17702671><Red>" picked up item "ammopack_medium"
+L 02/21/2013 - 20:57:39: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "17")
+L 02/21/2013 - 20:57:39: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "16")
+L 02/21/2013 - 20:57:39: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "14")
+L 02/21/2013 - 20:57:39: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "16")
+L 02/21/2013 - 20:57:39: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "18")
+L 02/21/2013 - 20:57:40: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "42")
+L 02/21/2013 - 20:57:48: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "16")
+L 02/21/2013 - 20:57:48: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "18")
+L 02/21/2013 - 20:57:49: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "17")
+L 02/21/2013 - 20:57:49: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "55")
+L 02/21/2013 - 20:57:49: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "15")
+L 02/21/2013 - 20:57:49: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "14")
+L 02/21/2013 - 20:57:51: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "5")
+L 02/21/2013 - 20:57:51: "NevaKee<2><STEAM_0:0:20205444><Blue>" killed "Handberg<3><STEAM_0:0:17702671><Red>" with "shotgun_primary" (attacker_position "-255 -2611 -191") (victim_position "251 -2584 -191")
+L 02/21/2013 - 20:57:53: "NevaKee<2><STEAM_0:0:20205444><Blue>" picked up item "tf_ammo_pack"
+L 02/21/2013 - 20:58:08: "NevaKee<2><STEAM_0:0:20205444><Blue>" picked up item "ammopack_medium"
+L 02/21/2013 - 20:58:23: "Handberg<3><STEAM_0:0:17702671><Red>" changed role to "demoman"
+L 02/21/2013 - 20:58:34: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "builtobject" (object "OBJ_DISPENSER") (position "422 -947 256")
+L 02/21/2013 - 20:58:49: "Handberg<3><STEAM_0:0:17702671><Red>" triggered "damage" (damage "33")
+L 02/21/2013 - 20:58:51: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "healed" against "NevaKee<2><STEAM_0:0:20205444><Blue>" (healing "11")
+L 02/21/2013 - 20:58:52: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "healed" against "NevaKee<2><STEAM_0:0:20205444><Blue>" (healing "10")
+L 02/21/2013 - 20:58:53: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "healed" against "NevaKee<2><STEAM_0:0:20205444><Blue>" (healing "11")
+L 02/21/2013 - 20:59:05: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "29")
+L 02/21/2013 - 20:59:06: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "72")
+L 02/21/2013 - 20:59:07: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "8")
+L 02/21/2013 - 20:59:18: "Handberg<3><STEAM_0:0:17702671><Red>" triggered "damage" (damage "82")
+L 02/21/2013 - 20:59:26: "Handberg<3><STEAM_0:0:17702671><Red>" picked up item "medkit_medium"
+L 02/21/2013 - 20:59:26: "Handberg<3><STEAM_0:0:17702671><Red>" picked up item "ammopack_medium"
+L 02/21/2013 - 20:59:38: "Handberg<3><STEAM_0:0:17702671><Red>" picked up item "medkit_medium"
+L 02/21/2013 - 20:59:41: "Handberg<3><STEAM_0:0:17702671><Red>" triggered "damage" (damage "53")
+L 02/21/2013 - 20:59:42: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "77")
+L 02/21/2013 - 20:59:44: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "15")
+L 02/21/2013 - 20:59:44: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "15")
+L 02/21/2013 - 20:59:45: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "17")
+L 02/21/2013 - 20:59:45: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "14")
+L 02/21/2013 - 20:59:45: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "15")
+L 02/21/2013 - 20:59:45: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "18")
+L 02/21/2013 - 20:59:45: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "110")
+L 02/21/2013 - 20:59:45: "NevaKee<2><STEAM_0:0:20205444><Blue>" killed "Handberg<3><STEAM_0:0:17702671><Red>" with "obj_sentrygun3" (attacker_position "-481 -2944 -156") (victim_position "-283 -3302 -191")
+L 02/21/2013 - 20:59:58: "NevaKee<2><STEAM_0:0:20205444><Blue>" picked up item "medkit_medium"
+L 02/21/2013 - 21:00:15: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "7")
+L 02/21/2013 - 21:00:15: "Handberg<3><STEAM_0:0:17702671><Red>" triggered "damage" (damage "97")
+L 02/21/2013 - 21:00:16: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "19")
+L 02/21/2013 - 21:00:16: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "10")
+L 02/21/2013 - 21:00:17: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "3")
+L 02/21/2013 - 21:00:19: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "16")
+L 02/21/2013 - 21:00:20: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "15")
+L 02/21/2013 - 21:00:21: "Handberg<3><STEAM_0:0:17702671><Red>" triggered "damage" (damage "104")
+L 02/21/2013 - 21:00:21: "Handberg<3><STEAM_0:0:17702671><Red>" killed "NevaKee<2><STEAM_0:0:20205444><Blue>" with "tf_projectile_pipe" (attacker_position "287 869 64") (victim_position "2 498 52")
+L 02/21/2013 - 21:00:49: "Handberg<3><STEAM_0:0:17702671><Red>" picked up item "medkit_medium"
+L 02/21/2013 - 21:00:49: "Handberg<3><STEAM_0:0:17702671><Red>" picked up item "ammopack_medium"
+L 02/21/2013 - 21:01:01: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "89")
+L 02/21/2013 - 21:01:02: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "89")
+L 02/21/2013 - 21:01:02: "NevaKee<2><STEAM_0:0:20205444><Blue>" killed "Handberg<3><STEAM_0:0:17702671><Red>" with "shotgun_primary" (attacker_position "278 -2751 -191") (victim_position "216 -2751 -191")
+L 02/21/2013 - 21:01:28: "Handberg<3><STEAM_0:0:17702671><Red>" changed role to "soldier"
+L 02/21/2013 - 21:01:37: "Handberg<3><STEAM_0:0:17702671><Red>" triggered "damage" (damage "55")
+L 02/21/2013 - 21:01:38: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "22")
+L 02/21/2013 - 21:01:38: "Handberg<3><STEAM_0:0:17702671><Red>" triggered "damage" (damage "78")
+L 02/21/2013 - 21:01:38: "Handberg<3><STEAM_0:0:17702671><Red>" killed "NevaKee<2><STEAM_0:0:20205444><Blue>" with "tf_projectile_rocket" (attacker_position "278 809 33") (victim_position "35 723 0")
+L 02/21/2013 - 21:02:10: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "15")
+L 02/21/2013 - 21:02:10: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "17")
+L 02/21/2013 - 21:02:17: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "14")
+L 02/21/2013 - 21:02:17: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "14")
+L 02/21/2013 - 21:02:18: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "34")
+L 02/21/2013 - 21:02:19: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "15")
+L 02/21/2013 - 21:02:20: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "18")
+L 02/21/2013 - 21:02:24: "Handberg<3><STEAM_0:0:17702671><Red>" picked up item "ammopack_medium"
+L 02/21/2013 - 21:02:25: "Handberg<3><STEAM_0:0:17702671><Red>" picked up item "medkit_medium"
+L 02/21/2013 - 21:02:29: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "16")
+L 02/21/2013 - 21:02:29: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "14")
+L 02/21/2013 - 21:02:29: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "18")
+L 02/21/2013 - 21:02:29: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "18")
+L 02/21/2013 - 21:02:29: "Handberg<3><STEAM_0:0:17702671><Red>" triggered "killedobject" (object "OBJ_SENTRYGUN") (weapon "tf_projectile_rocket") (objectowner "NevaKee<2><STEAM_0:0:20205444><Blue>") (attacker_position "-487 -3149 -191")
+L 02/21/2013 - 21:02:36: "Handberg<3><STEAM_0:0:17702671><Red>" triggered "flagevent" (event "picked up") (position "423 -3360 -122")
+L 02/21/2013 - 21:02:41: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "flagevent" (event "picked up") (position "-463 3280 -175")
+L 02/21/2013 - 21:02:44: "Handberg<3><STEAM_0:0:17702671><Red>" picked up item "medkit_medium"
+L 02/21/2013 - 21:02:44: "Handberg<3><STEAM_0:0:17702671><Red>" picked up item "ammopack_medium"
+L 02/21/2013 - 21:03:09: "Handberg<3><STEAM_0:0:17702671><Red>" triggered "damage" (damage "60")
+L 02/21/2013 - 21:03:13: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "39")
+L 02/21/2013 - 21:03:13: "Handberg<3><STEAM_0:0:17702671><Red>" triggered "damage" (damage "38")
+L 02/21/2013 - 21:03:14: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "4")
+L 02/21/2013 - 21:03:20: "NevaKee<2><STEAM_0:0:20205444><Blue>" picked up item "ammopack_medium"
+L 02/21/2013 - 21:03:22: "NevaKee<2><STEAM_0:0:20205444><Blue>" picked up item "medkit_medium"
+L 02/21/2013 - 21:03:24: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "10")
+L 02/21/2013 - 21:03:25: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "6")
+L 02/21/2013 - 21:03:31: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "4")
+L 02/21/2013 - 21:03:33: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "3")
+L 02/21/2013 - 21:03:33: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "10")
+L 02/21/2013 - 21:04:03: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "flagevent" (event "captured") (team_caps "1") (caps_per_round "3") (position "473 -3252 -175")
+L 02/21/2013 - 21:04:09: "NevaKee<2><STEAM_0:0:20205444><Blue>" picked up item "medkit_medium"
+L 02/21/2013 - 21:04:09: "NevaKee<2><STEAM_0:0:20205444><Blue>" picked up item "ammopack_medium"
+L 02/21/2013 - 21:04:24: "Handberg<3><STEAM_0:0:17702671><Red>" triggered "flagevent" (event "captured") (team_caps "1") (caps_per_round "3") (position "-379 3329 -145")
+L 02/21/2013 - 21:04:33: "Handberg<3><STEAM_0:0:17702671><Red>" picked up item "medkit_medium"
+L 02/21/2013 - 21:04:33: "Handberg<3><STEAM_0:0:17702671><Red>" picked up item "ammopack_medium"
+L 02/21/2013 - 21:04:35: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "builtobject" (object "OBJ_SENTRYGUN") (position "-168 -2620 -191")
+L 02/21/2013 - 21:04:59: "NevaKee<2><STEAM_0:0:20205444><Blue>" picked up item "ammopack_medium"
+L 02/21/2013 - 21:05:17: "NevaKee<2><STEAM_0:0:20205444><Blue>" picked up item "ammopack_medium"
+L 02/21/2013 - 21:06:06: "Handberg<3><STEAM_0:0:17702671><Red>" picked up item "ammopack_small"
+L 02/21/2013 - 21:06:06: "Handberg<3><STEAM_0:0:17702671><Red>" picked up item "medkit_small"
+L 02/21/2013 - 21:06:19: "Handberg<3><STEAM_0:0:17702671><Red>" picked up item "ammopack_medium"
+L 02/21/2013 - 21:06:19: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "14")
+L 02/21/2013 - 21:06:19: "Handberg<3><STEAM_0:0:17702671><Red>" picked up item "medkit_medium"
+L 02/21/2013 - 21:06:19: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "14")
+L 02/21/2013 - 21:06:20: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "17")
+L 02/21/2013 - 21:06:20: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "16")
+L 02/21/2013 - 21:06:20: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "16")
+L 02/21/2013 - 21:06:20: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "16")
+L 02/21/2013 - 21:06:20: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "15")
+L 02/21/2013 - 21:06:20: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "14")
+L 02/21/2013 - 21:06:20: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "17")
+L 02/21/2013 - 21:06:21: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "18")
+L 02/21/2013 - 21:06:21: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "18")
+L 02/21/2013 - 21:06:21: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "16")
+L 02/21/2013 - 21:06:21: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "18")
+L 02/21/2013 - 21:06:21: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "16")
+L 02/21/2013 - 21:06:21: "NevaKee<2><STEAM_0:0:20205444><Blue>" killed "Handberg<3><STEAM_0:0:17702671><Red>" with "obj_sentrygun2" (attacker_position "659 2777 -191") (victim_position "-676 -2812 -191")
+L 02/21/2013 - 21:06:22: "NevaKee<2><STEAM_0:0:20205444><Blue>" picked up item "ammopack_medium"
+L 02/21/2013 - 21:06:28: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "flagevent" (event "picked up") (position "-487 3279 -175")
+L 02/21/2013 - 21:06:34: "Handberg<3><STEAM_0:0:17702671><Red>" changed role to "spy"
+L 02/21/2013 - 21:07:27: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "flagevent" (event "captured") (team_caps "2") (caps_per_round "3") (position "377 -3290 -175")
+L 02/21/2013 - 21:07:47: "NevaKee<2><STEAM_0:0:20205444><Blue>" picked up item "ammopack_medium"
+L 02/21/2013 - 21:07:56: "NevaKee<2><STEAM_0:0:20205444><Blue>" picked up item "ammopack_small"
+L 02/21/2013 - 21:07:59: "Handberg<3><STEAM_0:0:17702671><Red>" triggered "flagevent" (event "picked up") (position "425 -3291 -175")
+L 02/21/2013 - 21:08:06: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "17")
+L 02/21/2013 - 21:08:06: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "14")
+L 02/21/2013 - 21:08:06: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "17")
+L 02/21/2013 - 21:08:06: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "18")
+L 02/21/2013 - 21:08:06: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "15")
+L 02/21/2013 - 21:08:07: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "16")
+L 02/21/2013 - 21:08:07: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "14")
+L 02/21/2013 - 21:08:07: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "18")
+L 02/21/2013 - 21:08:07: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "flagevent" (event "defended") (position "-372 -1844 256")
+L 02/21/2013 - 21:08:07: "Handberg<3><STEAM_0:0:17702671><Red>" triggered "flagevent" (event "dropped") (position "93 -2591 -121")
+L 02/21/2013 - 21:08:07: "NevaKee<2><STEAM_0:0:20205444><Blue>" killed "Handberg<3><STEAM_0:0:17702671><Red>" with "obj_sentrygun2" (attacker_position "-372 -1844 256") (victim_position "93 -2591 -121")
+L 02/21/2013 - 21:08:20: "NevaKee<2><STEAM_0:0:20205444><Blue>" picked up item "ammopack_medium"
+L 02/21/2013 - 21:08:31: "NevaKee<2><STEAM_0:0:20205444><Blue>" picked up item "tf_ammo_pack"
+L 02/21/2013 - 21:08:56: "Handberg<3><STEAM_0:0:17702671><Red>" triggered "damage" (damage "21")
+L 02/21/2013 - 21:08:59: "Handberg<3><STEAM_0:0:17702671><Red>" triggered "damage" (damage "20")
+L 02/21/2013 - 21:08:59: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "6")
+L 02/21/2013 - 21:09:00: "Handberg<3><STEAM_0:0:17702671><Red>" triggered "damage" (damage "20")
+L 02/21/2013 - 21:09:00: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "3")
+L 02/21/2013 - 21:09:03: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "8")
+L 02/21/2013 - 21:09:04: "Handberg<3><STEAM_0:0:17702671><Red>" triggered "damage" (damage "20")
+L 02/21/2013 - 21:09:06: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "8")
+L 02/21/2013 - 21:09:06: "Handberg<3><STEAM_0:0:17702671><Red>" triggered "damage" (damage "20")
+L 02/21/2013 - 21:09:07: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "8")
+L 02/21/2013 - 21:09:08: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "8")
+L 02/21/2013 - 21:09:11: "Handberg<3><STEAM_0:0:17702671><Red>" triggered "damage" (damage "20")
+L 02/21/2013 - 21:09:11: "Handberg<3><STEAM_0:0:17702671><Red>" killed "NevaKee<2><STEAM_0:0:20205444><Blue>" with "revolver" (attacker_position "293 -964 64") (victim_position "172 635 3")
+L 02/21/2013 - 21:09:46: "Handberg<3><STEAM_0:0:17702671><Red>" triggered "flagevent" (event "picked up") (position "472 -3280 -175")
+L 02/21/2013 - 21:09:49: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "86")
+L 02/21/2013 - 21:09:49: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "flagevent" (event "defended") (position "-479 -3197 -191")
+L 02/21/2013 - 21:09:49: "Handberg<3><STEAM_0:0:17702671><Red>" triggered "flagevent" (event "dropped") (position "-410 -3224 -191")
+L 02/21/2013 - 21:09:49: "NevaKee<2><STEAM_0:0:20205444><Blue>" killed "Handberg<3><STEAM_0:0:17702671><Red>" with "shotgun_primary" (attacker_position "-479 -3197 -191") (victim_position "-410 -3224 -191")
+L 02/21/2013 - 21:09:49: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "revenge" against "Handberg<3><STEAM_0:0:17702671><Red>"
+L 02/21/2013 - 21:09:54: "NevaKee<2><STEAM_0:0:20205444><Blue>" picked up item "tf_ammo_pack"
+L 02/21/2013 - 21:10:09: World triggered "Round_Overtime"
+L 02/21/2013 - 21:10:09: World triggered "Round_Overtime"
+L 02/21/2013 - 21:10:09: World triggered "Round_Overtime"
+L 02/21/2013 - 21:10:09: World triggered "Round_Overtime"
+L 02/21/2013 - 21:10:10: World triggered "Round_Overtime"
+L 02/21/2013 - 21:10:10: World triggered "Round_Overtime"
+L 02/21/2013 - 21:10:10: World triggered "Round_Overtime"
+L 02/21/2013 - 21:10:10: World triggered "Round_Overtime"
+L 02/21/2013 - 21:10:10: World triggered "Round_Overtime"
+L 02/21/2013 - 21:10:10: World triggered "Round_Overtime"
+L 02/21/2013 - 21:10:10: World triggered "Round_Overtime"
+L 02/21/2013 - 21:10:10: World triggered "Round_Overtime"
+L 02/21/2013 - 21:10:10: World triggered "Round_Overtime"
+L 02/21/2013 - 21:10:10: World triggered "Round_Overtime"
+L 02/21/2013 - 21:10:10: World triggered "Round_Overtime"
+L 02/21/2013 - 21:10:10: World triggered "Round_Overtime"
+L 02/21/2013 - 21:10:10: World triggered "Round_Overtime"
+L 02/21/2013 - 21:10:10: World triggered "Round_Overtime"
+L 02/21/2013 - 21:10:10: World triggered "Round_Overtime"
+L 02/21/2013 - 21:10:10: World triggered "Round_Overtime"
+L 02/21/2013 - 21:10:10: World triggered "Round_Overtime"
+L 02/21/2013 - 21:10:10: World triggered "Round_Overtime"
+L 02/21/2013 - 21:10:10: World triggered "Round_Overtime"
+L 02/21/2013 - 21:10:14: "Handberg<3><STEAM_0:0:17702671><Red>" changed role to "heavyweapons"
+L 02/21/2013 - 21:10:25: "Handberg<3><STEAM_0:0:17702671><Red>" triggered "damage" (damage "5")
+L 02/21/2013 - 21:10:25: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "3")
+L 02/21/2013 - 21:10:25: "Handberg<3><STEAM_0:0:17702671><Red>" triggered "damage" (damage "5")
+L 02/21/2013 - 21:10:26: "Handberg<3><STEAM_0:0:17702671><Red>" triggered "damage" (damage "5")
+L 02/21/2013 - 21:10:26: "Handberg<3><STEAM_0:0:17702671><Red>" triggered "damage" (damage "5")
+L 02/21/2013 - 21:10:26: "Handberg<3><STEAM_0:0:17702671><Red>" triggered "damage" (damage "5")
+L 02/21/2013 - 21:10:42: "Handberg<3><STEAM_0:0:17702671><Red>" triggered "damage" (damage "5")
+L 02/21/2013 - 21:10:43: "Handberg<3><STEAM_0:0:17702671><Red>" triggered "damage" (damage "5")
+L 02/21/2013 - 21:10:49: World triggered "Round_Stalemate"
+L 02/21/2013 - 21:10:49: Team "Red" current score "0" with "1" players
+L 02/21/2013 - 21:10:49: Team "Blue" current score "0" with "1" players
+L 02/21/2013 - 21:11:04: World triggered "Game_Over" reason "Reached Time Limit"
+L 02/21/2013 - 21:11:04: Team "Red" final score "0" with "1" players
+L 02/21/2013 - 21:11:04: Team "Blue" final score "0" with "1" players
+L 02/21/2013 - 21:11:15: [META] Loaded 0 plugins (1 already loaded)
+L 02/21/2013 - 21:11:15: [META] Loaded 0 plugins (1 already loaded)
+L 02/21/2013 - 21:11:15: Log file closed

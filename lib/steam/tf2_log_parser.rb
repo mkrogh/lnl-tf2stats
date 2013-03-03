@@ -15,9 +15,17 @@ module Steam
         user.captures += 1
       end
 
+      entry /.* triggered "flagevent" \(event "defended"\).*/ do |msg, user|
+        user.defends +=1
+      end
+
       entry /.* triggered "killedobject".*\(objectowner (?<owner>".*?")\)/ do |msg, user|
         owner = User.from_steam(msg["owner"])
         user.destructions +=1 unless user.steam_id == owner.steam_id
+      end
+
+      entry /.* triggered "revenge" .*/ do |msg, user|
+        user.revenges += 1
       end
     end
   end
