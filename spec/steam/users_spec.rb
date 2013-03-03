@@ -1,13 +1,7 @@
 require "spec_helper"
 require "steam/user"
 
-
-describe Steam::User do
-  let(:user) { Steam::User.new("NevaKee","STEAM_0:0:20205444")}
-  let(:player2) {Steam::User.new("Handberg","STEAM_0:0:17702671")}
-
-  context "when creating from steam" do
-    subject { Steam::User.from_steam('L 02/21/2013 - 21:13:54: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "76")')}
+shared_examples "a new user" do
     its(:name) { should == "NevaKee"}
     its(:steam_id) { should == "STEAM_0:0:20205444"}
     its(:total_damage) { should == 0}
@@ -18,9 +12,23 @@ describe Steam::User do
     its(:defends){should == 0}
     its(:revenges){should == 0}
     its(:destructions){should == 0}
+end
 
+describe Steam::User do
+  let(:user) { Steam::User.new("NevaKee","STEAM_0:0:20205444")}
+  let(:player2) {Steam::User.new("Handberg","STEAM_0:0:17702671")}
+
+  describe "#from_steam" do 
+    context "when creating from full log line" do
+      subject { Steam::User.from_steam('L 02/21/2013 - 21:13:54: "NevaKee<2><STEAM_0:0:20205444><Blue>" triggered "damage" (damage "76")')}
+      it_behaves_like "a new user"
+    end
+
+    context "creation from user data" do
+      subject{Steam::User.from_steam('"NevaKee<2><STEAM_0:0:20205444><Blue>"')}
+      it_behaves_like "a new user"
+    end
   end
-
 
   context "when handling damange" do
     it "should take damage" do 
