@@ -12,12 +12,11 @@ module Steam
     end
 
     def handle_line(line)
-      user = user(line)
-      if user
-        @actions.each do |pattern, block|
-          if match = pattern.match(line)
-            block.call(match,user)
-          end
+      user = nil
+      @actions.each do |pattern, block|
+        if match = pattern.match(line)
+          user = user(line)
+          block.call(match,user)
         end
       end
       user
@@ -37,8 +36,9 @@ module Steam
     end
     private
     def user(line)
-      user = User.from_steam(line)
-      @users[user.steam_id] ||= user if user
+      if match =  /(STEAM_.*?)>/.match(line)
+        @users[match[1]] ||= User.from_steam(line)
+      end
     end
   end
 end
