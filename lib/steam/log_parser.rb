@@ -14,9 +14,9 @@ module Steam
     def handle_line(line)
       user = user(line)
       if user
-        @actions.keys.each do |pattern|
+        @actions.each do |pattern, block|
           if match = pattern.match(line)
-            @actions[pattern].call(match,user)
+            block.call(match,user)
           end
         end
       end
@@ -24,8 +24,7 @@ module Steam
     end
 
     def parse(file_name)
-      lines = File.open(file_name, "r").readlines
-      lines.each do |line|
+      File.foreach(file_name) do |line|
         handle_line(line)
       end
       self

@@ -19,7 +19,7 @@ module Steam
     end
 
     def self.from_steam(steam)
-      match = /.*?"(?<name>.*?)<\d+><(?<id>STEAM_.*?)>.*"/.match(steam)
+      match = /"(?<name>.*?)<\d+><(?<id>STEAM_.*?)>/.match(steam)
       User.new(match[:name], match[:id]) if match
     end
 
