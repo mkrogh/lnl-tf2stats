@@ -8,27 +8,40 @@
     %link{rel: "stylesheet", href: "css/main.css", type: "text/css"}
 
   %body
+    .bg-img
     .container
-      .well
-        %h1 LNL Team fortress 2 leaderboard
-      %section
-        %table.table.table-striped
-          %thead
-            %tr
-              %th #
-              %th Nick
-              %th Captures
-              %th Übercharge
-              %th Assists
-              %th Kills
-              %th Score
-          %tbody
-            -@leaderboard.each_with_index do |user,i|
+      %header
+        %img.tf2logo{src: "img/tf2_logo.png", alt: "Team Fortress 2"}
+        .well
+          %h1 LNL Team fortress 2 leaderboard
+      .page
+        %section
+          %table.table.table-striped
+            %thead
               %tr
-                %td #{1+i}
-                %td #{user.name}
-                %td #{user.captures}
-                %td #{user.ubercharges}
-                %td #{user.assists}
-                %td #{user.total_kills}
-                %td #{user.points}
+                %th #
+                %th 
+                  Nick
+                  %i.icon-resize-vertical
+                %th Captures
+                %th Übercharge
+                %th
+                  Damage
+                  %i.icon-resize-vertical
+                %th Assists
+                %th Kills
+                %th
+                  Score
+                  %i.icon-chevron-up
+            %tbody
+              -@leaderboard.each_with_index do |user,i|
+                %tr
+                  %td #{1+i}
+                  %td #{user.name}
+                  %td #{user.captures}
+                  %td #{user.ubercharges}
+                  %td #{user.total_damage}
+                  %td #{user.assists}
+                  %td #{user.total_kills}
+                  %td #{user.points}
+    %script{type: "text/javascript", src: "js/table_sort.js"}

@@ -1,2 +1,35 @@
 body {
-  padding-top: 40px; }
+  padding-top: 40px;
+  background-color: #666666; }
+
+.bg-img {
+  background: url("../img/Wallpaper_team_fortress_2.jpg");
+  /*background: url("../img/1280x1024_logo.jpg") */
+  background-size: cover;
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1; }
+
+.page {
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6); }
+
+header {
+  position: relative; }
+
+.well {
+  background-color: white; }
+
+.tf2logo {
+  position: absolute;
+  z-index: 3;
+  -ms-transform: rotate(30deg);
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+  width: 145px;
+  right: 0;
+  top: 34px; }
