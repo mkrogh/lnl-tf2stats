@@ -6,6 +6,14 @@ Bundler.require(:default)
 require "steam/tf2_log_parser"
 require "lnl-stats/html_generator"
 
+class ShellBot < EventMachine::Connection
+  include EM::Protocols::LineText2
+  def receive_line(line)
+    EM.stop if line == "exit"
+    puts "Echo: #{line}"
+  end
+end
+
 class Tf2Stats < Thor
   
   def initialize(*args)
@@ -34,10 +42,13 @@ class Tf2Stats < Thor
   method_option :output, :aliases => "-o", :type => :string
   method_option :force, :aliases => "-f", :type => :boolean, :default => false
   def leaderboard(log_files)
+    @parser.users.clear
+    puts "parsing files"
     Dir.glob(log_files).sort.each do |file|
       @parser.parse(file) if File.file?(file)
     end
     
+    puts "generate html"
     html = LNL::HtmlGenerator.create_leaderboard(@parser.users.values)
 
     if options[:output]
@@ -45,6 +56,18 @@ class Tf2Stats < Thor
       open(options[:output]+"/index.html", "w:UTF-8") {|f| f.write(html)}
     else
       puts html
+    end
+  end
+
+  desc "watch <tf2_logfiles>", "generates stats continiously"
+  method_option :output, :aliases => "-o", :type => :string
+  def watch(log_files)
+    leaderboard(log_files) #Run first
+    EventMachine.run do
+      EM.open_keyboard(ShellBot)
+      EM.add_periodic_timer(30) do
+        leaderboard(log_files)
+      end
     end
   end
 
