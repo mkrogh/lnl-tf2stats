@@ -66,6 +66,7 @@ class Tf2Stats < Thor
     EventMachine.run do
       EM.open_keyboard(ShellBot)
       EM.add_periodic_timer(30) do
+        wget_logs
         leaderboard(log_files)
       end
     end
@@ -75,6 +76,9 @@ class Tf2Stats < Thor
   def copy_resources(destination)
     puts "Generating resources"
     FileUtils.cp_r  "resources/.", destination
+  end
+  def wget_logs
+    `wget -N -i http://10.1.2.85/logs/~files.lst?recursive --directory-prefix=tf2logs/`
   end
 end
 
